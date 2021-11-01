@@ -1,6 +1,6 @@
 {
   "name": "exiting",
-  "version": "6.0.1",
+  "version": "6.0.5",
   "description": "Gracefully stop hapi.js servers",
   "main": "lib/index.js",
   "scripts": {
@@ -10,16 +10,16 @@
   "author": "Gil Pedersen <gpdev@gpost.dk>",
   "license": "BSD-2-Clause",
   "devDependencies": {
-    "@hapi/code": "^8.0.1",
-    "@hapi/hapi": "^19.0.4",
-    "@hapi/lab": "^22.0.3"
+    "@hapi/code": "^8.0.3",
+    "@hapi/hapi": "^20.2.1",
+    "@hapi/lab": "^24.3.2"
   },
   "dependencies": {
     "@hapi/bounce": "^2.0.0",
-    "@hapi/hoek": "^9.0.2"
+    "@hapi/hoek": "^9.2.1"
   },
   "peerDependencies": {
-    "@hapi/hapi": ">=17.9.0"
+    "@hapi/hapi": ">=19.0.0"
   },
   "engines": {
     "node": ">=12.13.0"
