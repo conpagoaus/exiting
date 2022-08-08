@@ -1,0 +1,16 @@
+{
+  "env": {
+    "commonjs": true,
+    "es2021": true,
+    "node": true
+  },
+  "rules": {
+    "no-console": "off",
+    "no-await-in-loop": "error",
+    "consistent-return": "off",
+    "no-underscore-dangle": "off",
+    "func-names": "off",
+    "camelcase": "off",
+    "no-unused-vars": "warn"
+  }
+}
